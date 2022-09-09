@@ -2,19 +2,17 @@
 #include <stdlib.h>
 #include <time.h>
 /* main: main block */
-
 /* return: 0 */
 
 int main(void)
 {
 	int n;
 	int digit;
-	
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-    digit = n % 10; 
-    /*gets last digit*/
+    digit = n % 10; /*gets last digit*/
 
     if (digit > 5)
 		printf("Last digit of %i is %i and is greater than 5\n", n, digit);
