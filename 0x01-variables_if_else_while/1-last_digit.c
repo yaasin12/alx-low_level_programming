@@ -8,11 +8,12 @@
 int main(void)
 {
 	int n;
+	int digit;
 	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-    int digit = n % 10; 
+    digit = n % 10; 
     /*gets last digit*/
 
     if (digit > 5)
