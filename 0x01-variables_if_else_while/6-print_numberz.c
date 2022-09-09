@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <unistd.h>
-
 /**
  * main - Entry point
- * Description : print char below 10
- * Return : 0 (success)
+ * Description: print num below 10 as char
+ * Return: Always 0 (success)
  */
-
 int main(void)
 {
 	int x;
