@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Return: O (Success)
+ * main - main block
+  * Return: O (Success)
  */
 
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 /*my code starts here*/
-	n2 = n % 10; 
+	n2 = n % 10;
 
 	if (n2 > 5)
 		printf("Last digit of %i is %i and is greater than 5\n", n, n2);
