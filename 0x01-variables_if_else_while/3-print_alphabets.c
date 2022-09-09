@@ -4,12 +4,10 @@
  * Main : main block
  * return : 0 (success)
  */
-
 int main(void)
 {
     char lowercase = 'a';
     char uppercase = 'A';
-
     /*Print a to z*/
     while (lowercase <= 'z')
     {
