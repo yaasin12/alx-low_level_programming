@@ -4,8 +4,6 @@
 
 /**
  * main - Entry point
- *
-
  * Return: O (Success)
  */
 
@@ -16,7 +14,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	/*my code*/
+/*my code starts here*/
 	n2 = n % 10; 
 
 	if (n2 > 5)
