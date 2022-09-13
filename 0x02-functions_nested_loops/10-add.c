@@ -9,10 +9,10 @@
  * Return: sum of a & b
 */
 
-typedef int make_iso_compilers_happy;
 int add(int a, int b)
 {
-	int sum = a + b;
+	int sum;
+    sum = a + b;
 
 	return (sum);
 }
