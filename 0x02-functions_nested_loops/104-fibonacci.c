@@ -1,4 +1,5 @@
 #include"main.h"
+#include <stdio.h>
 
 /**
  * numLength - func to return the length of string
