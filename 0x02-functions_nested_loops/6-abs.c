@@ -2,9 +2,9 @@
 
 /**
  * _abs - Entry point
- * @n: input variable 
+ * @a: a is the input variable
  * Description: prints the absolute value of an integer
- * Return: a
+ * Return: int a
  */
 
 int _abs(int a)
