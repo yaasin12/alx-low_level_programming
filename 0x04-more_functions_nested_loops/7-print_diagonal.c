@@ -1,8 +1,8 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * print_diagonal - diagonal lines made of backslashes
- * @n: number of \ to be printed
+ * print_diagonal - prints diagonal lines made of backslashes
+ * @n: input/lines to be printed
  * Return: void
  */
 
