@@ -2,7 +2,7 @@
 
 /**
  * _atoi - convert a string to an integer.
- * @s: the string's pointer> to be converted.
+ * @s: the string to be comverted.
  *
  *Return: The integer value of the comverted string.
  */
@@ -10,7 +10,7 @@
 int _atoi(char *s)
 {
 	int sign = 1;
-	unsigned int n = 0;
+	unsigned int num = 0;
 
 	do {
 
@@ -18,11 +18,11 @@ int _atoi(char *s)
 			sign *= -1;
 
 		else if (*s >= '0' && *s <= '9')
-			n = (n * 10) + (*s - '0');
+			num = (num * 10) + (*s - '0');
 
-		else if (n > 0)
+		else if (num > 0)
 			break;
 	} while (*s++);
 
-	return (n * sign);
+	return (num * sign);
 }
